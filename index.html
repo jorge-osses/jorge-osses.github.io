@@ -4,339 +4,177 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jorge Osses - portfolio personal</title>
-    <meta name="description" content="Jorge Osses - personal portfolio">
-    <meta name="keywords" content="portfolio, personal, portafolio, cv theme, curriculum vitae, online resume,professional cv">
-    <meta name="author" content="jorge osses">
-    <link  rel="icon"   href="favicon.png" type="image/png" />
-
-    <style>
-      .parallax {
-        /* The image used */
-        background-image: url("fondo3.jpg");
-      
-        /* Set a specific height */
-        min-height: 500px; 
-      
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        
-      }
-
-      .flip-card {
-        background-color: transparent;
-        width: 300px;
-        height: 300px;
-        perspective: 1000px;
-      }
-
-      .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        transition: transform 0.6s;
-        transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-      }
-
-      .flip-card:hover .flip-card-inner {
-        transform: rotateY(180deg);
-      }
-
-      .flip-card-front, .flip-card-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-      }
-
-      .flip-card-front {
-        background-color: #bbb;
-        color: black;
-      }
-
-      .flip-card-back {
-        background-color: #c7760c;
-        color: white;
-        transform: rotateY(180deg);
-      }
-      .footer {
-        position: none;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: rgb(42, 40, 49);
-        color: rgb(255, 254, 254);
-        text-align: center;
-      }
-      
-      nav a {
-        color: rgb(255, 255, 255) !important;
-      }
-      #tarjeta #profile-datos{
-        color: rgb(0, 0, 0);     
-        padding: 50px;
-        background-origin: padding-box;
-        text-align: center;
-        grid-template-areas: 
-          'lista lista photo photo lista lista'!important;
-      }
-      img.imagen-profile {
-        height: 260px;
-        width: 260px;
-        border-radius: 100%;
-      }
-      
-      </style>
-    <!--SmartPhone Menu-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="cursos.css">
+    <link rel="shortcut icon" type="image" href="favicon.jpeg"/>
+    <title>RESUMEN</title>
 </head>
+<body class="body">
 
-<body style="background-color: #4e9c41;">
-  <!--Parallax-->
-  <div class="parallax">
-    <div class="card" style="width:100%">
-      
-      <div class="card-img-overlay text-center ">
-        <br /> <br /> <br /> <br /> <br /> <br /> 
-        <h2 class="card-text text-white" style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif">Hola, Yo soy</h2>
-        <br /> <br />
-        <h1 class="card-title text-white" style="font-size: 80pt;">Jorge Osses</h1>
-        <br><br><br><br><br><br>
-      </div>
-    </div>
-  </div>
-
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="background-color: black !important;">
-      <a class="navbar-brand" href="index.html">Home </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#services">Cursos <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#habilidades">Skills </a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Contacto
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="https://www.linkedin.com/in/jorge-osses-03078899/" style="color: black!important;">LinkedIn</a>
-              <a class="dropdown-item" href="https://twitter.com/JorgeOsses19" style="color: black!important;">Twitter</a>
-              <div class="dropdown-divider" style="color: black!important;"></div>
-              <a class="dropdown-item" href="https://github.com/jorge-osses" style="color: black!important;">GitHub</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  
-  
-  <div style="background-color: #4e9c41;
-  padding: 20px;">
     <div class="container">
-      <div id="tarjeta" class="row">
-        <img class="align-self-start mr-3 rounded-circle" class="col" src="profile.jpg" alt="Foto perfil" style="width:30%;">
-        <div class="col"></div>
-        <div id="profile-datos" class="col">
-          <ul class="area2" style="position: absolute; text-align:justify;">
-            <li><strong>Desarrollador Python</strong></li>
-            <li>Django</li>
-            <li>Desarrollo Web</li>
-            <li>Frameworks</li>
-            <li>Back-end</li>
-            <li>front-end</li>
-          </ul>
+        <label class="switch">
+            <input class="toggle" type="checkbox">jpg
+            <span class="slider round"></span>
+        </label>
+        <div>
+            <h1>JORGE OSSES</h1>
+            <nav class="navbar">
+                <a href="#h2">Acerca</a>
+                <span> / </span>
+                <a href="resumen.html">Curriculum</a>
+                <span> / </span>
+                <a href="#contact">Contacto</a>
+
+            </nav>
         </div>
-      </div>
-    </div>  
-</div>
+        <hr>
+        <h2 id='#h2'>Acerca de Mi</h2>
+        <img src="perfil.jpg" alt="profile picture">
+        <p>Soy tecnico con conocimientos en Redes y Servidores de Videovigilancia, aprendiendo desarrollo web con Python, Django, Bootstrap, Materialize. Me gusta el software libre. Tengo conociemiento en Git, GitHub, Linux y servers. En mi tiempo libre soy bajista.</p>
+        
 
+        <div>
+            <h3>Cursos Realizados</h3>
 
-    <!--Mis Cursos-->
-
-    <div style="background-color: #000000" id="services">
-      <div class="container">
-        <br />
-        <h3 class="text-center text-white" style="font-size: 30pt;">MIS CURSOS</h3>
-        <div class="row">
-          <div class="col sm12 md4">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-              <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                <div class="card" style="background-color: rgb(247, 158, 26); border-color:#4e9c41">
-                  <img src="python.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
+            <div class="responsive">
+                <div class="gallery">
+                <div class="desc">
+                        <h4>Introducción al Desarrollo Web I</h4>
+                        <p>
+                            Google Activate <br>
+                            Expedición: enero 2021 <br>
+                            ID de la credencial: NRA E2W NCS  <br>
+                            <a href="https://learndigital.withgoogle.com/activate/validate-certificate-code">Ver credencial</a>
+                        </p>
                 </div>
-              </div>
-              <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                <div class="card" style="background-color: rgb(247, 158, 26); border-color:#4e9c41">
-                  <img src="python.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
                 </div>
-              </div>
-              <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                <div class="card" style="background-color: rgb(247, 158, 26); border-color:#4e9c41">
-                  <img src="python.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                <div class="card" style="background-color: rgb(247, 158, 26); border-color:#4e9c41">
-                  <img src="python.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                <div class="card" style="background-color: rgb(247, 158, 26); border-color:#4e9c41">
-                  <img src="python.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col shadow-lg p-3 mb-5 bg-body rounded">
-                <div class="card" style="background-color: rgb(247, 158, 26); border-color:#4e9c41">
-                  <img src="python.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                <div class="desc">
+                        <h4>Introducción al Desarrollo Web II</h4>
+                        <p>
+                            Google Activate <br>
+                            Expedición: abril 2021 <br>
+                            ID de la credencial: KNF VAB PT9  <br>
+                            <a href="https://learndigital.withgoogle.com/activate/validate-certificate-code">Ver credencial</a>
+                        </p>                
+                </div>
+                </div>
+            </div>
+            
+            <div class="responsive">
+                <div class="gallery">
+                <div class="desc">
+                        <h4>Python 3. Curso completo de Python 3. Aprende desde 0</h4>
+                        <p>
+                            Udemy <br>
+                            Expedición: febrero 2021 <br>
+                            ID de la credencial:  4c87c902-9a7c-47ab-9c7f-d37a05693df8  <br>
+                            <a href="https://www.udemy.com/certificate/UC-4c87c902-9a7c-47ab-9c7f-d37a05693df8/">Ver credencial</a>
+                        </p>             
+                </div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <div class="desc">
+                        <h4>Python Core</h4>
+                        <p>
+                            SoloLearn<br>
+                            Expedición: febrero 2021 <br>
+                            ID de la credencial: 20909791-1073  <br>
+                            <a href="https://www.sololearn.com/certificatehttps://www.sololearn.com/Certificate/1023-20909791/pdf/s/course/en/20909791/1073/landscape/png">Ver credencial</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <div class="desc">
+                        <h4>Python for Beginners</h4>
+                        <p>
+                            SoloLearn<br>
+                            Expedición: febrero 2021 <br>
+                            ID de la credencial: 20909791-1157  <br>
+                            <a href="https://www.sololearn.com/certificates/course/en/20909791/1157/landscape/png">Ver credencial</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <div class="desc">
+                        <h4>HTML Course</h4>
+                        <p>
+                            SoloLearn<br>
+                            Expedición: febrero 2021 <br>
+                            ID de la credencial: 1014-20909791  <br>
+                            <a href="https://www.sololearn.com/Certificate/1014-20909791/pdf/">Ver credencial</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <div class="desc">
+                        <h4>CSS Course</h4>
+                        <p>
+                            SoloLearn<br>
+                            Expedición: marzo 2021 <br>
+                            ID de la credencial: 1023-20909791  <br>
+                            <a href="https://www.sololearn.com/Certificate/1023-20909791/pdf/">Ver credencial</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <div class="desc">
+                        <h4>JavaScript</h4>
+                        <p>
+                            SoloLearn<br>
+                            Expedición: febreromarzo 2021 <br>
+                            ID de la credencial: 20909791-1024  <br>
+                            <a href="https://www.sololearn.com/certificates/course/en/20909791/1024/landscape/png">Ver credencial</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <div class="desc">
+                        <h4>Desarrollo de Apps móviles(40h)</h4>
+                        <p>
+                            Universidad Complutense de Madrid desde Google Activate <br>
+                            Expedición: noviembre 2020 <br>
+                            ID de la credencial: WUA XMF FBD  <br>
+                            <a href="https://learndigital.withgoogle.com/activate/validate-certificate-code">Ver credencial</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+
+       
     </div>
 
-    <!--Mis Habilidades-->
-    <div class="container" id="habilidades" style="background-color: #4e9c41;">
-      <div class="row">
-        <div class="col sm12 md6">
-          <h5 class="text-center">Mi experiencia</h5>
-          <div class="card" style="width: 100%; background-color: rgb(247, 158, 26);">
-            <div class="card-body" style="color:rgb(0, 0, 0)">
-              <h5 class="card-title">Card title</h5>
-              <!--<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>-->
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-          <div class="card" style="width: 100%; background-color: rgb(247, 158, 26);">
-            <div class="card-body" style="color:rgb(0, 0, 0)">
-              <h5 class="card-title">Card title</h5>
-              <!--<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>-->
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col sm12 md6">
-          <h5 class="text-center">Mi educacion</h5>
-          <div class="card" style="width: 100%; background-color: rgb(247, 158, 26);">
-            <div class="card-body" style="color:rgb(0, 0, 0)">
-              <h5 class="card-title">Card title</h5>
-              <!--<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>-->
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-          <div class="card" style="width: 100%; background-color: rgb(247, 158, 26);">
-            <div class="card-body" style="color:rgb(3, 3, 3)">
-              <h5 class="card-title">Card title</h5>
-              <!--<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>-->
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
+    <div class="container">
+        <footer>
+        <p id="contact">Author: Jorge Osses<br>
+        <a href="mailto:jorgitoosses@gmail.com">jorgitoosses@gmail.com</a></p>
+        </footer>
     </div>
 
-    <!--cursos-->
+    
 
-    <div class="container" id="cursos" style="background-color: #4e9c41;">
-      <div class="row">
-        <div class="col-sm-4">
-          <h3>Column 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        </div>
-        <div class="col-sm-4">
-          <h3>Column 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        </div>
-        <div class="col-sm-4">
-          <h3>Column 3</h3>        
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        </div>
-      </div>
-    </div>
-
-    <!--Footer-->
-    <div class="footer" style="background-color: black;">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Acerca de esta pagina</h5>
-            <p class="grey-text text-lighten-4"><em> por visitar la pagina, la misma fue creada por mi 
-              utilizando bootstrap como Framework de front-end, a modo de práctica de experiencia.</em></p>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Redes Sociales</h5>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/jorge-osses-03078899/">linkedin</a></li>
-                <li><a class="grey-text" href="https://github.com/jorge-osses">github</a></li>
-                <li><a class="grey-text" href="https://twitter.com/JorgeOsses19">Twitter</a></li>
-                <li><a class="grey-text" href="#!">Link 4</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright" style="background-color: black;" id="footer">
-        <div class="container">
-        © 2021 Copyright Jorge Osses
-        <a class="grey-text" href="#!">More Links</a>
-        </div>
-      </div>
-    </div>
+    <script src="storage.js"></script>
 </body>
 </html>
