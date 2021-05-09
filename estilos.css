@@ -86,7 +86,7 @@ nav {
 }
 footer {
     padding: 20px;
-    position:relative;
+    clear: both;
     left: 0;
     bottom: 0;
     width: 100%;
