@@ -1,3 +1,7 @@
+.body{
+    background-color: rgba(19, 19, 20, 0.965);
+    color: rgb(223, 215, 215);
+}
 .container{
     height: 100vh;
     width: 70vw;
@@ -6,8 +10,8 @@
 .switch{
     position: relative;
     display: inline-block;
-    width: 60px;
-    height: 34px;
+    width: 47px;
+    height: 22px;
 }
 .switch input{
     opacity: 0;
@@ -28,14 +32,14 @@
 .slider::before{
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
+    height: 13px;
+    width: 13px;
     left: 4px;
     bottom: 4px;
     background-color: white;
 }
 input:checked + .slider{
-    background-color: #2196F3;
+    background-color: #ccc;
 }
 input:focus + .slider{
     box-shadow: 0 0 1px #2196F3;
@@ -54,8 +58,8 @@ input:checked + .slider::before{
 /* cambio de color */
 
 .change-color{
-    background-color: rgba(19, 19, 20, 0.965);
-    color: rgb(223, 215, 215);
+    background-color: rgb(223, 215, 215);
+    color: rgba(19, 19, 20, 0.965);
 }
 img {
     height: 150px;
