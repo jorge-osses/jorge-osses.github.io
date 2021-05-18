@@ -58,7 +58,7 @@ input:checked + .slider::before{
 /* cambio de color */
 
 .change-color{
-    background-color: white;
+    background-color: rgba(255,255,255,255);
     color: rgba(19, 19, 20, 0.965);
 }
 img {
