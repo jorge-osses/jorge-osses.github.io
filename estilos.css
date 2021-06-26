@@ -1,9 +1,10 @@
 .body{
     background-color: rgba(19, 19, 20, 0.965);
     color: rgb(223, 215, 215);
+    font-family:Arial, Helvetica, sans-serif
 }
 .container{
-    height: 100vh;
+    height: auto;
     width: 70vw;
     margin: 2rem auto;
 }
@@ -39,7 +40,7 @@
     background-color: white;
 }
 input:checked + .slider{
-    background-color: #ccc;
+    background-color: #cccccc;
 }
 input:focus + .slider{
     box-shadow: 0 0 1px #2196F3;
@@ -62,14 +63,13 @@ input:checked + .slider::before{
     color: rgba(19, 19, 20, 0.965);
 }
 img {
-    height: 150px;
-    width: 210px;
-    border-radius: 50%;
+    height: auto;
+    width: 20rem;
+    border-radius: 70px;
     position: relative;
+    border: #000000 solid 0.5vh;
+    margin: 20px;
 }
-img:hover {
-    transform: scaleX(-1);
-}   
 
 a:link {
     color: inherit;
@@ -84,15 +84,51 @@ a:active {
     color: inherit;
 }
 nav {
-    position: absolute;
+    position: sticky;
+    top: 0px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items:center;
     right: 15%;
-    top: 10px;
+    
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 20px;
+}
+nav ul li{
+    padding: 10px;
+    margin-right: 1rem;
+    border: #000000 solid 3px;
+    font-weight:bold;
+}
+nav a{
+    font-style: italic;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: #000000;
+    color: #ccc;
 }
 footer {
-    padding: 20px;
-    clear: both;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    background-color: #cccccc;
+    color: rgb(17, 16, 16);
+    border:solid 2px rgb(0, 0, 0);
     text-align:center;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.acercaDeMi {
+    padding: 100px 0px 50px 0px;
 }

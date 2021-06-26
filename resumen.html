@@ -1,9 +1,42 @@
-<nav class="container" title="nav bar">
-    <a href="index.html">Acerca</a>
-    <a href="resumen.html">Resume</a>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" type="image" href="favicon.jpeg"/>
+    <title>RESUME</title>
+</head>
+<body class="body">
+    
+    <div class="container">
+        <label class="switch" title='color switch'>
+            <input class="toggle" type="checkbox">
+            <span class="slider round"></span>
+        </label>
+        <div class="principal">
+            <h1>JORGE OSSES</h1>
+            <nav title="navbar">
+                <ul>
+                    <li><a href="index.html">Acerca</a></li>
+                    <li><a href="#cv">Curriculum</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div id="cv">
+        <embed src="resume.pdf" type="application/pdf" width="100%" height="600px" />
+    </div>
 
-</nav>
-<hr>
-<div>
-	<embed src="resume.pdf" type="application/pdf" width="100%" height="600px" />
-</div>
+    <div>
+        <footer>
+        <p id="contact"><a href="mailto:jorgitoosses@gmail.com">jorgitoosses@gmail.com</a> <br>
+        <a href="https://t.me/jorgeosses" target="_blank">Telegram</a><br>
+        Author: Jorge Osses</p>
+        </footer>
+    </div>
+    <script src="storage.js"></script>
+</body>
+</html>
