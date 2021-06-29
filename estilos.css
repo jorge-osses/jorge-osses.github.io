@@ -63,12 +63,7 @@ input:checked + .slider::before{
     color: rgba(19, 19, 20, 0.965);
 }
 img {
-    height: auto;
-    width: 20rem;
-    border-radius: 70px;
-    position: relative;
-    border: #000000 solid 0.5vh;
-    margin: 20px;
+    
 }
 
 a:link {
@@ -130,5 +125,17 @@ footer {
     padding-bottom: 10px;
 }
 .acercaDeMi {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding: 100px 0px 50px 0px;
+    align-items: center;
+
+}
+.acercaDeMi img{
+    height: auto;
+    width: 20rem;
+    border-radius: 70px;
+    border: #000000 solid 0.5vh;
+    margin: 20px;
 }
