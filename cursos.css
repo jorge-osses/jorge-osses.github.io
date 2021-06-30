@@ -44,7 +44,7 @@ div.gallery {
     .cvPhone{
       display:contents;
     }
-    #cv{
+    .cv{
       display: none;
     }
   }
@@ -67,7 +67,7 @@ div.gallery {
     .cvPhone{
       display:contents;
     }
-    #cv{
+    .cv{
       display: none;
     }
   }
