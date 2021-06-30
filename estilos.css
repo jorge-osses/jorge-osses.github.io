@@ -162,4 +162,6 @@ footer {
     display:block;
     width: auto;
 }
-
+.cvPhone{
+    display: none;
+}
