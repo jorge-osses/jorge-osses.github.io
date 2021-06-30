@@ -30,11 +30,33 @@ div.gallery {
       width: 49.99999%;
       margin: 6px 0;
     }
+    .hamburguesa{
+      display: contents;
+      justify-content:flex-end;
+      align-items:center;
+    }
+    nav{
+      display:none;
+    }
+    .principal {
+      position: static;
+    }
   }
   
   @media only screen and (max-width: 500px) {
     .responsive {
       width: 100%;
+    }
+    .hamburguesa{
+      display: contents;
+      justify-content:flex-end;
+      align-items:center;
+    }
+    nav{
+      display:none;
+    }
+    .principal {
+      position: static;
     }
   }
   
