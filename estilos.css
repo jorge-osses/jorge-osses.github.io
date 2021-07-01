@@ -76,21 +76,23 @@ a:active {
     color: inherit;
 }
 nav {
-    padding: 10px 0px 10px 0px;
     display: flex;
     flex-direction:row;
-    justify-content:flex-end;
-    align-items:center;
-    right: 15%;
-    
+    justify-content: space-around;
+
 }
 .principal{
-    background-color: rgba(19, 19, 20, 0.644);
+    background-color: rgba(19, 19, 20, 0.397);
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     position: sticky;
     top: 0px;
+}
+.principal h1{
+    align-items: center;
+    text-align: center;
 }
 
 nav ul {
@@ -98,11 +100,11 @@ nav ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 20px;
+    justify-content: space-around;
+
 }
 nav ul li{
     padding: 10px;
-    margin-right: 1rem;
     border: #000000 solid 3px;
     font-weight:bold;
 }
@@ -152,9 +154,11 @@ footer {
 }
 .hamburguesa{
     display: none;
+    padding-top:25px;
 }
 .hamburguesa img{
     width:30px;
+    background-color: #ccc;
 }
 .hamburguesa ul{
     display: none;
@@ -173,9 +177,32 @@ footer {
     color: #ccc;
 }
 .hamburguesa:hover .menuHamburguer{
-    display:block;
+    display:inline-flex;
     width: auto;
+    font-size: small;
 }
 .cvPhone{
     display: none;
+}
+.donaciones {
+    position: sticky;
+    top: 0;
+    margin-top:150px;
+    float: left;
+    width: 8rem;
+    font-size: small;
+    text-justify: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #000000 2px dotted;
+}
+.donaciones img{
+    width: 50px;
+}
+.donaciones p{
+    text-align: justify;
+    border: #000000 solid 1px;
+    margin: 5px;
+    padding: 5px;
 }

@@ -31,9 +31,46 @@ div.gallery {
       margin: 6px 0;
     }
     .hamburguesa{
+
+      display: contents;
+    }
+    .hamburguesa img{
+      margin-top: 22px;
+
+      
+    }
+    .acercaDeMi p{
+      text-align: center;
+    }
+    nav{
+      display:none;
+    }
+    .principal {
+      background-color: inherit;
+      position: static;
+    }
+    .cvPhone{
+      display:contents;
+    }
+    .cv{
+      display: none;
+    }
+    .donaciones{
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+    .hamburguesa{
       display: contents;
       justify-content:flex-end;
       align-items:center;
+    }
+    .acercaDeMi p{
+      text-align: center;
     }
     nav{
       display:none;
@@ -48,28 +85,7 @@ div.gallery {
     .cv{
       display: none;
     }
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-    .hamburguesa{
-      display: contents;
-      justify-content:flex-end;
-      align-items:center;
-    }
-    nav{
-      display:none;
-    }
-    .principal {
-      position: static;
-      background-color: inherit;
-    }
-    .cvPhone{
-      display:contents;
-    }
-    .cv{
+    .donaciones{
       display: none;
     }
   }
