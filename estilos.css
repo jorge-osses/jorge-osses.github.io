@@ -265,3 +265,8 @@ footer h4 {
         display: block;
     }
 }
+@media (max-width: 600px){
+    #perfil{
+        width: 60%;
+    }
+}
