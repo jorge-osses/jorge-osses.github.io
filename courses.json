@@ -1,0 +1,130 @@
+[
+    {
+        "title":"Introducción al desarrollo web I",
+        "place":"Google Activate",
+        "date":"01/2021",
+        "id":"NRA E2W NCS",
+        "link":"https://learndigital.withgoogle.com/activate/validate-certificate-code"
+
+    },
+    {
+        "title":"Introducción al desarrollo web II",
+        "place":"Google Activate",
+        "date":"04/2021",
+        "id":"KNF VAB PT9",
+        "link":"https://learndigital.withgoogle.com/activate/validate-certificate-code"
+
+    },
+    {
+        "title":"Python 3",
+        "place":"Udemy",
+        "date":"02/2021",
+        "id":"4c87c902-9a7c-47ab-9c7f-d37a05693df8",
+        "link":"https://www.udemy.com/certificate/UC-4c87c902-9a7c-47ab-9c7f-d37a05693df8/"
+
+    },
+    {
+        "title":"Python Core",
+        "place":"SoloLearn",
+        "date":"02/2021",
+        "id":"20909791-1073",
+        "link":"https://www.sololearn.com/certificates/course/en/20909791/1073/landscape/png"
+
+    },
+    {
+        "title":"Python for Beginners",
+        "place":"Udemy",
+        "date":"02/2021",
+        "id":"20909791-1157",
+        "link":"https://www.sololearn.com/certificates/course/en/20909791/1157/landscape/png"
+
+    },
+    {
+        "title":"HTML Course",
+        "place":"SoloLearn",
+        "date":"02/2021",
+        "id":"1014-20909791",
+        "link":"https://www.sololearn.com/Certificate/1014-20909791/pdf/"
+
+    },
+    {
+        "title":"CSS Course",
+        "place":"SoloLearn",
+        "date":"03/2021",
+        "id":"1023-20909791",
+        "link":"https://www.sololearn.com/Certificate/1023-20909791/pdf/"
+
+    },
+    {
+        "title":"JavaScript",
+        "place":"SoloLearn",
+        "date":"08/2021",
+        "id":"20909791-1024",
+        "link":"https://www.sololearn.com/certificates/course/en/20909791/1024/landscape/png"
+
+    },
+    {
+        "title":"Desarrollo de Apps móviles",
+        "place":"Google Activate",
+        "date":"11/2020",
+        "id":"WUA XMF FBD",
+        "link":"https://learndigital.withgoogle.com/activate/validate-certificate-code"
+
+    },
+    {
+        "title":"Intermediate Python",
+        "place":"SoloLearn",
+        "date":"08/2021",
+        "id":"20909791-1158",
+        "link":"https://www.sololearn.com/certificates/course/en/20909791/1158/landscape/png"
+
+    },
+    {
+        "title":"JQuery Course",
+        "place":"SoloLearn",
+        "date":"09/2021",
+        "id":"1082-20909791",
+        "link":"https://www.sololearn.com/Certificate/1082-20909791/jpg"
+
+    },
+    {
+        "title":"Responsive Web Design course",
+        "place":"SoloLearn",
+        "date":"08/2021",
+        "id":"1162-20909791",
+        "link":"https://www.sololearn.com/Certificate/1162-20909791/jpg"
+
+    },
+    {
+        "title":"Coding for Marketers course",
+        "place":"SoloLearn",
+        "date":"11/2021",
+        "id":"1165-20909791",
+        "link":"https://www.sololearn.com/Certificate/1165-20909791/jpg"
+
+    },
+    {
+        "title":"Desarrollo Web",
+        "place":"CODERHOUSE",
+        "date":"08/2021",
+        "id":"61157f4f308528001113b4e5",
+        "link":"https://www.coderhouse.com/certificados/61157f4f308528001113b4e5"
+
+    },
+    {
+        "title":"JavaScript",
+        "place":"CODERHOUSE",
+        "date":"10/2021",
+        "id":"618983e4e73d59115366409e",
+        "link":"https://www.coderhouse.com/certificados/618983e4e73d59115366409e"
+
+    },
+    {
+        "title":"React Js",
+        "place":"CODERHOUSE",
+        "date":"in course",
+        "id":"N/A",
+        "link":"N/A"
+
+    }
+]
