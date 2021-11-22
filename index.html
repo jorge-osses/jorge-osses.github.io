@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,47 +7,86 @@
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="cursos.css">
     <link rel="shortcut icon" type="image" href="media/favicon.jpeg"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Jorge Osses - WebPage</title>
 </head>
-<body class="body">
+<body id="body" class="body">
+    
+    <nav>
+        <div class="logo">
+           Jorge Osses
+        </div>
+        <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+           <li><a href="#">Home</a></li>
+           <li>
+              <label for="btn-1" class="show">Features +</label>
+              <a href="#">Features</a>
+              <input type="checkbox" id="btn-1">
+              <ul>
+                 <li>
+                    <label for="btn-4" class="show">Web development +</label>
+                    <a href="#">Web development</a>
+                    <input type="checkbox" id="btn-4">
+                    <ul>
+                        <li><a href="https://ecotomito.com.ar" target="_blank">Ecotomito</a></li>
+                        <li><a href="https://electro-sur.com.ar/" target="_blank">electro-sur</a></li>
+                        <li><a href="https://jorge.osses.ar/proyecto_psicologia_familia/" target="_blank">Espacio Psicologia y familia</a></li>
+                     </ul>
+                </li>
+                 <li>
+                     <label for="btn-5" class="show">JavaScript +</label>
+                    <a href="#">JavaScript</a>
+                    <input type="checkbox" id="btn-5">
+                    <ul>
+                        <li><a href="https://jorge.osses.ar/peliculas-favoritas/" target="_blank">Peliculas Favoritas</a></li>
+                    </ul>
+                </li>
+                 <li><a href="./resumen.html">My CV</a></li>
+              </ul>
+           </li>
+           <li>
+              <label for="btn-2" class="show">Services +</label>
+              <a href="#">Services</a>
+              <input type="checkbox" id="btn-2">
+              <ul>
+                 <li><a href="#">Web Design</a></li>
+                 <li><a href="#">App Design</a></li>
+                 <li>
+                    <label for="btn-3" class="show">More +</label>
+                    <a href="#">More <span class="fa fa-plus"></span></a>
+                    <input type="checkbox" id="btn-3">
+                    <ul>
+                       <li><a href="https://github.com/jorge-osses" target="_blank"><i class="fab fa-github"></i>GitHub</a></li>
+                       <!-- <li><a href="#">Submenu-2</a></li>
+                       <li><a href="#">Submenu-3</a></li> -->
+                    </ul>
+                 </li>
+              </ul>
+           </li>
+           <li><a href="#">Portfolio</a></li>
+           <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
 
     <div class="container">
-        <label class="switch" title='color switch'>
-            <input class="toggle" type="checkbox">
-            <span class="slider round"></span>
-        </label>
-        <div class="principal">
-            <h1>JORGE OSSES</h1>
-            <nav title="navbar">
-                <ul>
-                    <li title="acerca de mi"><a href="#h2" >Acerca</a></li>
-                    <li title="curriculum"><a href="resumen.html">Curriculum</a></li>
-                    <li title="contacto"><a href="#contact">Contacto</a></li>
-                    <li title="proximamente el portfolio"><a href="">Portfolio</a></li>
-                </ul>
-            </nav>
-            <div class="hamburguesa">
-                <a href=""><img src="media/hamburger.svg" alt="menu">
-                <ul class="menuHamburguer">
-                    <li title="acerca de mi"><a href="#h2" >Acerca</a></li>
-                    <li title="curriculum"><a href="resumen.html">Curriculum</a></li>
-                    <li title="contacto"><a href="#contact">Contacto</a></li>
-                    <li title="proximamente el portfolio"><a href="">Portfolio</a></li>
-                </ul></a>
-                
-            </div>
-        </div>
-
+      
         
-        <div class="acercaDeMi">
-            
-            <img src="media/foto-perfil.png" alt="foto de perfil">
-            <h2 id='h2'>Acerca de Mi</h2>
-            <p>Busco desarrollarme profesionalmente dentro del área IT, para poder poner en práctica los conocimientos adquiridos y seguir avanzando en mi capacitación profesional. Estoy cursando la carrera de Desarrollo Front End en CODERHOUSE. Soy AUTODIDACTA con rápido aprendizaje. Tengo conocimientos en Python, Linux, Git, BootStrap. Actualmente trabajo como técnico auxiliar en seguridad electrónica. Me desenvuelvo en grandes y pequeños grupos de trabajo. Nunca me faltan las ganas de aprender.</p>
+        <div class="aboutMe">
+            <h1 id='title'>ABOUT ME</h1>
+            <div>
+                <img id="perfil" src="./media/foto-perfil.png" alt="perfil">
+                <p id='descripcion'>I seek to develop professionally within the IT area, to be able to put into practice the acquired knowledge and continue advancing in my professional training. I am studying Front End Development at CODERHOUSE. I'm autodidactic. I have knowledge of Python, Linux, Git, BootStrap. I currently work as a commercial assistant in the field of electronic security. I work in large and small work groups. I never lack the desire to learn.</p>
+            </div>
+            <!-- Busco desarrollarme profesionalmente dentro del área IT, para poder poner en práctica los conocimientos adquiridos y seguir avanzando en mi capacitación profesional. Estoy cursando la carrera de Desarrollo Front End en CODERHOUSE. Soy AUTODIDACTA. Tengo conocimientos en Python, Linux, Git, BootStrap. Actualmente trabajo como auxiliar comercial en el rubro de seguridad electrónica. Me desenvuelvo en grandes y pequeños grupos de trabajo. Nunca me faltan las ganas de aprender. -->
         </div>
-
-        <div><h2>Cursos</h2></div>
-        <div class="cursos">
+        <h2 class="titleCourse">Courses</h2>
+        <div class="courses">
             <div class="responsive">
                 <div class="gallery">
                 <div class="desc">
@@ -165,7 +204,7 @@
                     <div class="desc">
                         <h4>Desarrollo de Apps móviles</h4>
                         <p>
-                            Universidad Complutense de Madrid desde Google Activate <br>
+                            Google Activate <br>
                             Expedición: noviembre 2020 <br>
                             ID de la credencial: WUA XMF FBD  <br>
                             <a href="https://learndigital.withgoogle.com/activate/validate-certificate-code" target="_blank">Ver credencial</a>
@@ -182,23 +221,25 @@
 
     <div>
         <footer>
-            <h4>Contáctame</h4>
+            <h4>CONTACT ME</h4>
             <div class="socialMedia" id="contact">
-                <a href="https://wa.me/5491127218440/?text=Hola,%20como%20estás?%20quisiera%20hacerte%20una%20consulta.." target="_blank"><img src="media/whatsapp.svg" alt=""></a>
-                <a href="mailto:jorgitoosses@gmail.com" target="_blank"><img src="media/e-mail.svg" alt=""></a>
-                <a href="https://www.linkedin.com/in/jorge-osses/" target="_blank"><img src="media/linkedin.svg" alt=""></a>
-                <a href="https://t.me/jorgeosses" target="_blank"><img src="media/telegram.svg" alt=""></a>
-                <a href="https://twitter.com/JorgeOsses19" target="_blank"><img src="media/twitter.svg" alt=""></a>
-                <a href="https://github.com/jorge-osses" target="_blank"><img src="media/github.svg" alt=""></a>
+                <a href="https://wa.me/5491127218440/?text=Hola,%20como%20estás?%20quisiera%20hacerte%20una%20consulta.." target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="mailto:jorgitoosses@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/jorge-osses/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://t.me/jorgeosses" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                <a href="https://twitter.com/JorgeOsses19" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/jorge-osses" target="_blank"><i class="fab fa-github"></i></a>
             </div>
             <div class="copyrigth">
-                Author: Jorge Osses</p>
+                <small>© Jorge Osses</small>
             </div>
+            
         </footer>
     </div>
 
     
 
     <script src="storage.js"></script>
+    <script src="./code.js"></script>
 </body>
 </html>

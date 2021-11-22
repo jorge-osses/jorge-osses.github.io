@@ -7,56 +7,92 @@
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="cursos.css">
     <link rel="shortcut icon" type="image" href="media/favicon.jpeg"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>RESUME</title>
 </head>
 <body class="body">
-    
-    <div class="container">
-        <label class="switch" title='color switch'>
-            <input class="toggle" type="checkbox">
-            <span class="slider round"></span>
-        </label>
-        <div class="principal">
-            <h1>JORGE OSSES</h1>
-            <nav title="navbar">
-                <ul>
-                    <li title="acerca de mi"><a href="index.html" >Acerca</a></li>
-                    <li title="curriculum"><a href="resumen.html">Curriculum</a></li>
-                    <li title="contacto"><a href="#contact">Contacto</a></li>
-                </ul>
-            </nav>
-            <div class="hamburguesa">
-                <a href=""><img src="media/hamburger.svg" alt="menu">
-                <ul class="menuHamburguer">
-                    <li title="acerca de mi"><a href="index.html" >Acerca</a></li>
-                    <li title="curriculum"><a href="resumen.html">Curriculum</a></li>
-                    <li title="contacto"><a href="#contact">Contacto</a></li>
-                </ul></a>
-                
-            </div>
+    <nav>
+        <div class="logo">
+           Jorge Osses
         </div>
-    </div>
+        <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+           <li><a href="./index.html">Home</a></li>
+           <li>
+              <label for="btn-1" class="show">Features +</label>
+              <a href="#">Features</a>
+              <input type="checkbox" id="btn-1">
+              <ul>
+                 <li>
+                    <label for="btn-4" class="show">Web development +</label>
+                    <a href="#">Web development</a>
+                    <input type="checkbox" id="btn-4">
+                    <ul>
+                        <li><a href="https://ecotomito.com.ar" target="_blank">Ecotomito</a></li>
+                        <li><a href="https://electro-sur.com.ar/" target="_blank">electro-sur</a></li>
+                        <li><a href="https://jorge.osses.ar/proyecto_psicologia_familia/" target="_blank">Espacio Psicologia y familia</a></li>
+                     </ul>
+                </li>
+                 <li>
+                     <label for="btn-5" class="show">JavaScript +</label>
+                    <a href="#">JavaScript</a>
+                    <input type="checkbox" id="btn-5">
+                    <ul>
+                        <li><a href="https://jorge.osses.ar/peliculas-favoritas/" target="_blank">Peliculas Favoritas</a></li>
+                    </ul>
+                </li>
+                 <li><a href="#">My CV</a></li>
+              </ul>
+           </li>
+           <li>
+              <label for="btn-2" class="show">Services +</label>
+              <a href="#">Services</a>
+              <input type="checkbox" id="btn-2">
+              <ul>
+                 <li><a href="#">Web Design</a></li>
+                 <li><a href="#">App Design</a></li>
+                 <li>
+                    <label for="btn-3" class="show">More +</label>
+                    <a href="#">More <span class="fa fa-plus"></span></a>
+                    <input type="checkbox" id="btn-3">
+                    <ul>
+                       <li><a href="https://github.com/jorge-osses" target="_blank"><i class="fab fa-github"></i>GitHub</a></li>
+                       <!-- <li><a href="#">Submenu-2</a></li>
+                       <li><a href="#">Submenu-3</a></li> -->
+                    </ul>
+                 </li>
+              </ul>
+           </li>
+           <li><a href="#">Portfolio</a></li>
+           <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
     <div class="cv" id="cv">
         <embed src="media/resume.pdf" type="application/pdf" width="100%" height="600px" />
     </div>
     <div class="cvPhone">
-        <iframe src="https://docs.google.com/viewer?srcid=1GkDH39tJlPcM9gzbYrVkm5gxQxSNnTKh&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="680px"></iframe>
+        <iframe src="https://drive.google.com/file/d/1ZuBxp2eljQGL21JhdUE_T7gqJkB2u3Fj/preview" width="100%" height="680px" allow="autoplay"></iframe>
     </div>
-
+    <!-- https://docs.google.com/viewer?srcid=1GkDH39tJlPcM9gzbYrVkm5gxQxSNnTKh&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="680px -->
     <div>
         <footer>
-            <h4>Contáctame</h4>
+            <h4>CONTACT ME</h4>
             <div class="socialMedia" id="contact">
-                <a href="https://wa.me/5491127218440/?text=Hola,%20como%20estás?%20quisiera%20hacerte%20una%20consulta.." target="_blank"><img src="media/whatsapp.svg" alt=""></a>
-                <a href="mailto:jorgitoosses@gmail.com" target="_blank"><img src="media/e-mail.svg" alt=""></a>
-                <a href="https://www.linkedin.com/in/jorge-osses/" target="_blank"><img src="media/linkedin.svg" alt=""></a>
-                <a href="https://t.me/jorgeosses" target="_blank"><img src="media/telegram.svg" alt=""></a>
-                <a href="https://twitter.com/JorgeOsses19" target="_blank"><img src="media/twitter.svg" alt=""></a>
-                <a href="https://github.com/jorge-osses" target="_blank"><img src="media/github.svg" alt=""></a>
+                <a href="https://wa.me/5491127218440/?text=Hola,%20como%20estás?%20quisiera%20hacerte%20una%20consulta.." target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="mailto:jorgitoosses@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/jorge-osses/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://t.me/jorgeosses" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                <a href="https://twitter.com/JorgeOsses19" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/jorge-osses" target="_blank"><i class="fab fa-github"></i></a>
             </div>
             <div class="copyrigth">
-                Author: Jorge Osses</p>
+                <small>© Jorge Osses</small>
             </div>
+            
         </footer>
     </div>
     <script src="storage.js"></script>

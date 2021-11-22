@@ -1,2 +1,2 @@
-# jorge-osses.github.io
+# https://jorge.osses.ar
 Curriculum Vitae

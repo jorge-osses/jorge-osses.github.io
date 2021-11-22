@@ -1,12 +1,15 @@
-/* seleccion elementos del dom */
-const check = document.querySelector('.toggle')
-const body = document.querySelector('.body')
+const portfolio = document.querySelector('#sub-portfolio');
+const sub = document.querySelector('#portfolio');
 
-check.addEventListener('click', function(){
-    
-    if(this.checked){
-        body.classList.add('change-color')
-    }else{
-        body.classList.remove('change-color')
-    }
+portfolio.addEventListener('click', (e) => {
+    sub.style.display = "block";
+    console.log(e)
 })
+
+const icon = document.querySelector('.icon');
+const span = document.querySelector('span');
+
+icon.on('click', () => {
+    span.toggleClass("cancel")
+})
+
