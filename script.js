@@ -16,7 +16,7 @@ fetch(url)
                 ${element.place} <br>
                 Expedición: ${element.date} <br>
                 ID de la credencial: ${element.id}  <br>
-                <a href="${element.url}" target="_blank">Ver credencial</a>
+                <a href="${element.link}" target="_blank">Ver credencial</a>
             </p>
             </div>
             </div>
