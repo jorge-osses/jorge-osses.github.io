@@ -5,7 +5,7 @@ fetch(url)
 .then((response) => response.json() )
 .then((data) => {
     console.log(data)
-    data.forEach(element => {
+    data.reverse().forEach(element => {
         let div = document.createElement('div');
         div.className = 'responsive';
         div.innerHTML =`

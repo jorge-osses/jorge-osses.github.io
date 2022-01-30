@@ -4,6 +4,7 @@
         "place":"Google Activate",
         "date":"01/2021",
         "id":"NRA E2W NCS",
+        "picture": "https://lh3.googleusercontent.com/4iqT3tE23ogfcN1LJ72qUk2VnyQ4qWmgCGoEJvcRVL8RZ5UBnIUSrw0zGDINI-rmL8wYnUBq60bsOwMEDIOh_bmG0hK7PLmK02bYtQ=s299",
         "link":"https://learndigital.withgoogle.com/activate/validate-certificate-code"
 
     },
@@ -11,6 +12,7 @@
         "title":"Introducción al desarrollo web II",
         "place":"Google Activate",
         "date":"04/2021",
+        "picture": "https://lh3.googleusercontent.com/aUJIawH7g7-5NRwTCIEXuLkXmrQi4b5b4YRgxtHo_b8Qx01Y2uyWO7gi0bhopnYGNZElhavW_d2zGqt8iMKALzKpt7gcdH58snIpwA=s299",
         "id":"KNF VAB PT9",
         "link":"https://learndigital.withgoogle.com/activate/validate-certificate-code"
 
@@ -19,6 +21,7 @@
         "title":"Python 3",
         "place":"Udemy",
         "date":"02/2021",
+        "picture": "https://img-c.udemycdn.com/course/240x135/2165550_3848_8.jpg",
         "id":"4c87c902-9a7c-47ab-9c7f-d37a05693df8",
         "link":"https://www.udemy.com/certificate/UC-4c87c902-9a7c-47ab-9c7f-d37a05693df8/"
 
@@ -27,14 +30,16 @@
         "title":"Python Core",
         "place":"SoloLearn",
         "date":"02/2021",
+        "picture": "",
         "id":"20909791-1073",
         "link":"https://www.sololearn.com/certificates/course/en/20909791/1073/landscape/png"
 
     },
     {
         "title":"Python for Beginners",
-        "place":"Udemy",
+        "place":"SoloLearn",
         "date":"02/2021",
+        "picture": "",
         "id":"20909791-1157",
         "link":"https://www.sololearn.com/certificates/course/en/20909791/1157/landscape/png"
 
@@ -43,6 +48,7 @@
         "title":"HTML Course",
         "place":"SoloLearn",
         "date":"02/2021",
+        "picture": "",
         "id":"1014-20909791",
         "link":"https://www.sololearn.com/Certificate/1014-20909791/pdf/"
 
@@ -51,6 +57,7 @@
         "title":"CSS Course",
         "place":"SoloLearn",
         "date":"03/2021",
+        "picture": "",
         "id":"1023-20909791",
         "link":"https://www.sololearn.com/Certificate/1023-20909791/pdf/"
 
@@ -59,6 +66,7 @@
         "title":"JavaScript",
         "place":"SoloLearn",
         "date":"08/2021",
+        "picture": "",
         "id":"20909791-1024",
         "link":"https://www.sololearn.com/certificates/course/en/20909791/1024/landscape/png"
 
@@ -68,6 +76,7 @@
         "place":"Google Activate",
         "date":"11/2020",
         "id":"WUA XMF FBD",
+        "picture": "https://lh3.googleusercontent.com/Neb-Bq56IxSeaJN9czbgDe9fOwUfiKNmRhEd3HTd8CfL2G1Im-dCjOFXQA-orX0hd5Z1_nDNo9Sl67pUBOYJCyS17MHObKA7tSLMVA=s299",
         "link":"https://learndigital.withgoogle.com/activate/validate-certificate-code"
 
     },
@@ -75,6 +84,7 @@
         "title":"Intermediate Python",
         "place":"SoloLearn",
         "date":"08/2021",
+        "picture": "",
         "id":"20909791-1158",
         "link":"https://www.sololearn.com/certificates/course/en/20909791/1158/landscape/png"
 
@@ -83,6 +93,7 @@
         "title":"JQuery Course",
         "place":"SoloLearn",
         "date":"09/2021",
+        "picture": "",
         "id":"1082-20909791",
         "link":"https://www.sololearn.com/Certificate/1082-20909791/jpg"
 
@@ -91,6 +102,7 @@
         "title":"Responsive Web Design course",
         "place":"SoloLearn",
         "date":"08/2021",
+        "picture": "",
         "id":"1162-20909791",
         "link":"https://www.sololearn.com/Certificate/1162-20909791/jpg"
 
@@ -99,6 +111,7 @@
         "title":"Coding for Marketers course",
         "place":"SoloLearn",
         "date":"11/2021",
+        "picture": "",
         "id":"1165-20909791",
         "link":"https://www.sololearn.com/Certificate/1165-20909791/jpg"
 
@@ -107,14 +120,24 @@
         "title":"Desarrollo Web",
         "place":"CODERHOUSE",
         "date":"08/2021",
+        "picture": "",
         "id":"61157f4f308528001113b4e5",
         "link":"https://www.coderhouse.com/certificados/61157f4f308528001113b4e5"
 
     },
     {
+        "title": "Scrum Fundamentals Certified",
+        "place": "SCRUMstudy - Accreditation Body for Scrum and Agile",
+        "date": "09/2021",
+        "picture": "https://www.frlp.utn.edu.ar/sites/default/files/styles/max_325x325/public/2018-12/scrum-proyectos-ti.png?itok=BvEOo0mp",
+        "id":"873249",
+        "link":"https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-JorgeDavidOsses.-873249.pdf"
+    },
+    {
         "title":"JavaScript",
         "place":"CODERHOUSE",
         "date":"10/2021",
+        "picture": "",
         "id":"618983e4e73d59115366409e",
         "link":"https://www.coderhouse.com/certificados/618983e4e73d59115366409e"
 
@@ -123,6 +146,7 @@
         "title":"React Js",
         "place":"CODERHOUSE",
         "date":"01/2022",
+        "picture": "",
         "id":"61e73e385851e700440dfb6a",
         "link":"https://www.coderhouse.com/certificados/61e73e385851e700440dfb6a"
 

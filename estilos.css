@@ -123,9 +123,6 @@ nav ul ul ul li{
 .show, .icon, input{
     display: none;
 }
-.aboutMe{
-    color:rgb(223, 215, 215);
-}
 footer {
     background-color: rgb(223, 215, 215);
     color: rgb(17, 16, 16);
@@ -155,9 +152,11 @@ footer h4 {
 .copyright{
     margin-top:30px;
 }
-
-.aboutMe {
-    margin: 15% auto;
+.aboutMe{
+    margin:10% auto 0;
+    color:rgb(223, 215, 215);
+    min-height:90vh;
+    max-width: 80vw;
 }
 .aboutMe div{
     display: flex;
@@ -169,6 +168,12 @@ footer h4 {
     padding: 20px;
     text-align: center;
     letter-spacing: 10px;
+    text-transform: uppercase;
+}
+#titleCourse{
+    text-align: center;
+    margin: 20px 0;
+    text-transform: uppercase;
 }
 #perfil{
     width: 15rem;
@@ -193,10 +198,21 @@ footer h4 {
 
 
 @media all and (max-width: 952px) {
-    .aboutMe div{
-        flex-direction: column;
+    .container{
+        width: 100%;
     }
-    .aboutMe p{
+    .aboutMe{
+        margin: 0 auto;
+        max-width: 100%;
+        min-height: auto;
+    }
+    .aboutMe div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #descripcion{
+        line-height:1.5em;
         text-align: center;
     }
     nav ul {
@@ -268,5 +284,8 @@ footer h4 {
 @media (max-width: 600px){
     #perfil{
         width: 60%;
+    }
+    #descripcion{
+        padding: 0;
     }
 }
