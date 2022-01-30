@@ -2,86 +2,126 @@ a{
   color: inherit;
 }
 div.gallery {
-    border: 1px solid #ccc;
-  }
+  border: 1px solid #ccc;
+}
   
-  div.gallery:hover {
-    border: 1px solid #777;
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.cv embed{
+  height: 100vh;
+}
+.cvPhone iframe{
+  height: 100vh;
+}
+.cvPhone{
+  display: none;
+} 
+.responsive {
+  padding: 6px 6px;
+  width: 33.33%;
+}
+.courses{
+  margin: 10% auto;
+}  
+.mainPortfolio{
+  max-width: 1200px;
+  margin: 10% auto;
+  height: auto;
+}
+.mainPortfolio h2{
+  text-align: center;
+}
+
+.row {
+  margin: 8px -16px;
+}
+.row,
+.row > .column {
+  padding: 8px;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.content {
+  border: 1px solid white;
+  padding: 10px;
+}
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
   }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
   }
-  
-  div.desc {
-    padding: 15px;
+  .hamburguesa{
+
+    display: contents;
+  }
+  .hamburguesa img{
+    margin-top: 22px;
+
+    
+  }
+  .acercaDeMi p{
     text-align: center;
   }
-  .cv embed{
-    height: 100vh;
+ 
+  .cvPhone{
+    display:contents;
   }
-  .cvPhone iframe{
-    height: 100vh;
+  .cv{
+    display: none;
+  }
+  .donaciones{
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+  .hamburguesa{
+    display: contents;
+    justify-content:flex-end;
+    align-items:center;
   }
   .cvPhone{
+    display:contents;
+  }
+  .cv{
     display: none;
-  } 
-  .responsive {
-    padding: 6px 6px;
-    width: 33.33%;
   }
-  
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-    .hamburguesa{
+}
 
-      display: contents;
-    }
-    .hamburguesa img{
-      margin-top: 22px;
-
-      
-    }
-    .acercaDeMi p{
-      text-align: center;
-    }
-   
-    .cvPhone{
-      display:contents;
-    }
-    .cv{
-      display: none;
-    }
-    .donaciones{
-      display: none;
-    }
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-    .hamburguesa{
-      display: contents;
-      justify-content:flex-end;
-      align-items:center;
-    }
-    .cvPhone{
-      display:contents;
-    }
-    .cv{
-      display: none;
-    }
-  }
-  
-  .courses{
-    display: flex;
-    flex-wrap: wrap;
-    align-items:space-between;
-    justify-content:space-around;
-  }
+.courses{
+  display: flex;
+  flex-wrap: wrap;
+  align-items:space-between;
+  justify-content:space-around;
+}
  

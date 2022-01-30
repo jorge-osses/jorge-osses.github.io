@@ -10,7 +10,7 @@
     font-family:'Poppins', sans-serif;
 }
 .container{
-    height: auto;
+    height: 100%;
     width: 90%;
     margin: 1rem auto;
 }
@@ -172,7 +172,7 @@ footer h4 {
 }
 #titleCourse{
     text-align: center;
-    margin: 20px 0;
+    margin: 10% 0 0;
     text-transform: uppercase;
 }
 #perfil{
