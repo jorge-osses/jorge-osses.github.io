@@ -150,5 +150,23 @@
         "id":"61e73e385851e700440dfb6a",
         "link":"https://www.coderhouse.com/certificados/61e73e385851e700440dfb6a"
 
+    },
+    {
+        "title":"Carrera de Desarrollo Front End React",
+        "place":"CODERHOUSE",
+        "date":"01/2022",
+        "picture": "",
+        "id":"61f7f4424924fc0042a8e203",
+        "link":"https://www.coderhouse.com/certificados/61f7f4424924fc0042a8e203"
+
+    },
+    {
+        "title":"SQL",
+        "place":"CODERHOUSE terminando...",
+        "date":"05/2022",
+        "picture": "",
+        "id":"N/A",
+        "link":"#"
+
     }
 ]
