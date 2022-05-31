@@ -35,11 +35,13 @@ div.desc {
 }  
 .mainPortfolio{
   max-width: 1200px;
-  margin: 10% auto;
+  
   height: auto;
+  border-top: 3px solid ;
 }
 .mainPortfolio h2{
   text-align: center;
+  margin: 4rem auto;
 }
 
 .row {
